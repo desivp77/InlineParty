@@ -1,9 +1,11 @@
 
 // return <div style={{ color: "blue", lineHeight : 10, padding: 20 }}> Inline Styled Component</div>
 // style={{ maxWidth: "60rem", margin: "2rem auto", padding: "1rem", boxShadow: "0 2px 8px rgba(0, 0, 0, 0.25)", borderRadius: "14px", backgroundColor: "white" }} 
+import "./App.css";
+
 function App() {
   return (
-<div className="App">
+    <div className="App">
       <div
       style={{
         display: "flex",
